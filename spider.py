@@ -18,12 +18,12 @@ cursor = con.cursor()
 
 driver = webdriver.Chrome()
 count = 0
-for i in range(1270, 1296 , 1):
+for i in range(1, 1296 , 1):
     url = 'https://www.bilibili.com/v/life/funny/?spm_id_from=333.10.life_funny.3#/all/click/0/{}/2017-11-01,2018-01-01'.format(
         str(i))
     driver.get(url)
     # print(i)
-    if i == 1270:
+    if i == 1:
         elements = driver.find_elements_by_class_name('mod-1')
         for element in elements:
             element.click()
