@@ -1,7 +1,0 @@
-1.用spider.py爬取了B站
-  爬取时间：2017.1.2
-  爬取的内容是：
-  生活栏目下 搞笑栏目下 2017.11.1-2018.1.1 的25000个视频的信息
-2.存储到mysql数据库中的bilibili_funny_all.sql，创建表的命令见all_create.sql，导出为excel文件bilibili_funny_all.xls
-3.数据处理后的数据表为data.sql,创建表的命令见data_create.sql，导出为excel文件data.xls
-4.数据可视化程序为visualize.py，生成的图表运行程序可通过浏览器弹出，文件夹中的3个png格式文件为参考
